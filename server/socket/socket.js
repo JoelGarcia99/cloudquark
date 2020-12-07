@@ -1,4 +1,4 @@
-const {io} = require('./server');
+const {io} = require('../../index');
 
 // Escuchando front end
 io.on('connection', (client)=>{
